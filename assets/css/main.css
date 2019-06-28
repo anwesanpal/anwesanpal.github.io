@@ -233,7 +233,7 @@ button:focus {
 }
 
 .social-icon li .github:hover {
-  background: #808080;
+  background: #696969;
 }
 
 /* ScrollToTop */
@@ -289,7 +289,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 .section-padding {
-  padding: 60px 0;
+  padding: 30px 0;
 }
 
 #about .img-thumb img {
@@ -712,7 +712,7 @@ a.back-to-top:hover, a.back-to-top:focus {
 3. Hero Area
 ========================================================================== */
 .hero-area-bg {
-  background: url(../img/hero-area.jpg) no-repeat;
+  background: url(../img/bs_Anwesan2.jpg) no-repeat;
   background-size: cover;
 }
 
@@ -779,21 +779,21 @@ a.back-to-top:hover, a.back-to-top:focus {
 }
 
 /* ==========================================================================
-  Portfolio Section
+  publication Section
    ========================================================================== */
-#portfolios {
+#publications {
   background: #f2f2f2;
 }
 
-#portfolios .mix {
+#publications .mix {
   padding: 10px;
 }
 
-#portfolios .portfolio-item .shot-item {
+#publications .publication-item .shot-item {
   margin: 0px;
 }
 
-#portfolio .mix {
+#publication .mix {
   display: none;
 }
 
@@ -818,13 +818,13 @@ a.back-to-top:hover, a.back-to-top:focus {
   cursor: pointer;
 }
 
-.portfolio-img {
+.publication-img {
   overflow: hidden;
   display: block;
   position: relative;
 }
 
-.portfolio-img img {
+.publication-img img {
   width: 100%;
 }
 
