@@ -1,0 +1,14 @@
+# jemdoc: menu{MENU}{project.html} ,nofooter
+==Anwesan Pal
+
+== Research
+. Multiple hotspot perimeter defense for multi-robot systems \n
+. Target-driven visual navigation \n
+. Object-based semantic mapping \n
+. Multi-frame visual recognition \n
+
+== Academic
+. Object Detection in the Autonomous Driving Scenario \[[projects/Obj-det-driving.pdf report]\] \[[https://github.com/anwesanpal/ECE_285_Obj_det_driving code]\]\n
+. Lyrics Web Scraping and Text Mining Analysis \[[projects/ECE-143.pdf slides]\] \[[https://github.com/anwesanpal/ECE_143_Lyrics_Web_Scraping code]\]\n
+. AgeGAN: Age Progression/Regression and Estimation \[[projects/agegan-age-progression.pdf report]\] \[[projects/COGS-260.pdf slides]\]\n
+. Optical Flow-based Video Classification with Visual Attention \[[projects/OptFlowRACNN.pdf report]\] \[[projects/271-B.pdf slides]\]\n
