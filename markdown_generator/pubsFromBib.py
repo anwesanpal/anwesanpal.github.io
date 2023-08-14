@@ -33,13 +33,6 @@ publist = {
         "collection" : {"name":"publications",
                         "permalink":"/publication/"}
         
-    },
-    "journal":{
-        "file": "pubs.bib",
-        "venuekey" : "journal",
-        "venue-pretext" : "",
-        "collection" : {"name":"publications",
-                        "permalink":"/publication/"}
     } 
 }
 
@@ -103,10 +96,13 @@ for pubsource in publist:
                 citation = citation+" "+author.first_names[0]+" "+author.last_names[0]+", "
 
             #citation title
-            citation = citation + "\"" + html_escape(b["title"].replace("{", "").replace("}","").replace("\\","")) + ".\""
+            # citation = citation + "\"" + html_escape(b["title"].replace("{", "").replace("}","").replace("\\","")) + ".\""
 
             #add venue logic depending on citation type
-            venue = publist[pubsource]["venue-pretext"]+b[publist[pubsource]["venuekey"]].replace("{", "").replace("}","").replace("\\","")
+            if bib_id == "madhavanrole22":
+                venue = "In "+ b[publist[pubsource]["venuekey"]].replace("{", "").replace("}","").replace("\\","")
+            else:
+                venue = publist[pubsource]["venue-pretext"]+b[publist[pubsource]["venuekey"]].replace("{", "").replace("}","").replace("\\","")
 
             citation = citation + " " + html_escape(venue)
             citation = citation + ", " + pub_year + "."
@@ -135,6 +131,12 @@ for pubsource in publist:
                     md += "\npaperurl: '" + b["url"] + "'"
                     url = True
 
+            if "link" in b.keys():
+                md += "\nlink: '" + b["link"] + "'"
+
+            if "github" in b.keys():
+                md += "\ngithub: '" + b["github"] + "'"
+
             md += "\ncitation: '" + html_escape(citation) + "'"
 
             md += "\n---"
@@ -144,10 +146,10 @@ for pubsource in publist:
             if note:
                 md += "\n" + html_escape(b["note"]) + "\n"
 
-            if url:
-                md += "\n[Access paper here](" + b["url"] + "){:target=\"_blank\"}\n" 
-            else:
-                md += "\nUse [Google Scholar](https://scholar.google.com/scholar?q="+html.escape(clean_title.replace("-","+"))+"){:target=\"_blank\"} for full citation"
+            # if url:
+            #     md += "\n[Access paper here](" + b["url"] + "){:target=\"_blank\"}\n" 
+            # else:
+            #     md += "\nUse [Google Scholar](https://scholar.google.com/scholar?q="+html.escape(clean_title.replace("-","+"))+"){:target=\"_blank\"} for full citation"
 
             md_filename = os.path.basename(md_filename)
 
