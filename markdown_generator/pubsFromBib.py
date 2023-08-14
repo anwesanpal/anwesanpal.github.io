@@ -12,7 +12,7 @@
 # * any specific pre-text for specific files
 # * Collection Name (future feature)
 # 
-# TODO: Make this work with other databases of citations, 
+# TODO: Make this work with other databases of authorss, 
 # TODO: Merge this with the existing TSV parsing solution
 
 
@@ -88,24 +88,35 @@ for pubsource in publist:
             md_filename = (str(pub_date) + "-" + url_slug + ".md").replace("--","-")
             html_filename = (str(pub_date) + "-" + url_slug).replace("--","-")
 
-            #Build Citation from text
-            citation = ""
+            #Build authors from text
+            # authors = ""
 
-            #citation authors - todo - add highlighting for primary author?
-            for author in bibdata.entries[bib_id].persons["author"]:
-                citation = citation+" "+author.first_names[0]+" "+author.last_names[0]+", "
+            #authors authors - todo - add highlighting for primary author?
+            for idx, author in enumerate(bibdata.entries[bib_id].persons["author"]):
+                if author.first_names[0]+" "+author.last_names[0] == "Anwesan Pal" or author.first_names[0]+" "+author.last_names[0] == "Anwesan Pal*":
+                    author_name = "<strong>"+author.first_names[0]+" "+author.last_names[0]+"</strong>"
+                elif author.middle_names:
+                    author_name = author.first_names[0]+" "+author.middle_names[0]+" "+author.last_names[0]
+                else:
+                    author_name = author.first_names[0]+" "+author.last_names[0]
+                if idx == 0:
+                    authors = author_name+", "
+                elif idx == len(bibdata.entries[bib_id].persons["author"]) - 1:
+                    authors = authors+" "+author_name+"."
+                else:
+                    authors = authors+" "+author_name+", "
 
-            #citation title
-            # citation = citation + "\"" + html_escape(b["title"].replace("{", "").replace("}","").replace("\\","")) + ".\""
+            #authors title
+            # authors = authors + "\"" + html_escape(b["title"].replace("{", "").replace("}","").replace("\\","")) + ".\""
 
-            #add venue logic depending on citation type
-            if bib_id == "madhavanrole22":
-                venue = "In "+ b[publist[pubsource]["venuekey"]].replace("{", "").replace("}","").replace("\\","")
+            #add venue logic depending on authors type
+            if bib_id in ["madhavanrole22", "palmjolnir20"]:
+                venue = "In "+"<em>"+b[publist[pubsource]["venuekey"]].replace("{", "").replace("}","").replace("\\","") + ", " + pub_year + "</em>" + "."
             else:
-                venue = publist[pubsource]["venue-pretext"]+b[publist[pubsource]["venuekey"]].replace("{", "").replace("}","").replace("\\","")
+                venue = publist[pubsource]["venue-pretext"]+"<em>"+b[publist[pubsource]["venuekey"]].replace("{", "").replace("}","").replace("\\","") + ", " + pub_year + "</em>" + "."
 
-            citation = citation + " " + html_escape(venue)
-            citation = citation + ", " + pub_year + "."
+            # authors = authors + " " + html_escape(venue)
+            # venue = venue + ", " + pub_year + "."
 
             
             ## YAML variables
@@ -137,7 +148,7 @@ for pubsource in publist:
             if "github" in b.keys():
                 md += "\ngithub: '" + b["github"] + "'"
 
-            md += "\ncitation: '" + html_escape(citation) + "'"
+            md += "\nauthors: '" + html_escape(authors) + "'"
 
             md += "\n---"
 
@@ -149,7 +160,7 @@ for pubsource in publist:
             # if url:
             #     md += "\n[Access paper here](" + b["url"] + "){:target=\"_blank\"}\n" 
             # else:
-            #     md += "\nUse [Google Scholar](https://scholar.google.com/scholar?q="+html.escape(clean_title.replace("-","+"))+"){:target=\"_blank\"} for full citation"
+            #     md += "\nUse [Google Scholar](https://scholar.google.com/scholar?q="+html.escape(clean_title.replace("-","+"))+"){:target=\"_blank\"} for full authors"
 
             md_filename = os.path.basename(md_filename)
 
