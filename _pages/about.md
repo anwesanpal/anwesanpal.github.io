@@ -1,6 +1,6 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "About me"
 excerpt: "About me"
 author_profile: true
 redirect_from: 
@@ -8,15 +8,27 @@ redirect_from:
   - /about.html
 ---
 
-This is the front page of a website that is powered by the [academicpages template](https://github.com/academicpages/academicpages.github.io) and hosted on GitHub pages. [GitHub pages](https://pages.github.com) is a free service in which websites are built and hosted from code and data stored in a GitHub repository, automatically updating when a new commit is made to the respository. This template was forked from the [Minimal Mistakes Jekyll Theme](https://mmistakes.github.io/minimal-mistakes/) created by Michael Rose, and then extended to support the kinds of content that academics have: publications, talks, teaching, a portfolio, blog posts, and a dynamically-generated CV. You can fork [this repository](https://github.com/academicpages/academicpages.github.io) right now, modify the configuration and markdown files, add your own PDFs and other content, and have your own site for free, with no ads! An older version of this template powers my own personal website at [stuartgeiger.com](http://stuartgeiger.com), which uses [this Github repository](https://github.com/staeiou/staeiou.github.io).
+I am currently a Ph.D. candidate in the Department of Computer Science and Engineering at UC San Diego. I work in the
+[Cognitive Robotics](https://www.cogrob.org/) Lab under the supervision of Prof. [Henrik I. Christensen](http://www.hichristensen.com/). Prior to this, I 
+obtained an M.S. degree in Electrical and Computer Engineering from UC San Diego, and a B.E. degree in 
+Electrical Engineering from Indian Institute of Engineering Science and Technology (IIEST) Shibpur.
 
-A data-driven personal website
+News
 ======
-Like many other Jekyll-based GitHub Pages templates, academicpages makes you separate the website's content from its form. The content & metadata of your website are in structured markdown files, while various other files constitute the theme, specifying how to transform that content & metadata into HTML pages. You keep these various markdown (.md), YAML (.yml), HTML, and CSS files in a public GitHub repository. Each time you commit and push an update to the repository, the [GitHub pages](https://pages.github.com/) service creates static HTML pages based on these files, which are hosted on GitHub's servers free of charge.
+- **Jul 2023**: Our paper on multi-turn image retrieval is accepted at ICCV 2023!
+- **Mar 2023**: I will be returning to Amazon as an Applied Scientist Intern in Summer 2023.
+- **Jun 2022**: Our paper on [reward-shaping for object-goal navigation](https://embodied-ai.org/papers/2022/18.pdf) is accepted at 3rd [Embodied AI Workshop](https://embodied-ai.org/), CVPR 2022!
+- **Mar 2022**: I successfully passed my Thesis Proposal Exam and am now a Ph.D. candidate!
+- **Mar 2022**: I will be joining Amazon as an Applied Scientist Intern in Summer 2022.
+- **Mar 2021**: I will be joining Google as a Research Intern in Summer 2021.
+- **Oct 2020**: Our paper on [object-goal navigation](https://sites.google.com/eng.ucsd.edu/mjolnir/) is accepted at [CoRL 2020](https://sites.google.com/robot-learning.org/corl2020)! (acceptance rate - 34.02%)
+- **Feb 2020**: Our paper on [semantically-augmented gaze detection network](https://sites.google.com/eng.ucsd.edu/sage-net/) is accepted at [CVPR 2020](http://cvpr2020.thecvf.com/)! (acceptance rate - 22.08%)
+- **Nov 2019**: Presented paper at [IROS 2019](https://www.iros2019.org/) in Macau, China!
+- **Sep 2019**: I started my Ph.D. journey in CSE Department, UC San Diego.
+- **Jun 2019**: Our paper on [place categorization](https://sites.google.com/eng.ucsd.edu/deduce/) is accepted at [IROS 2019](https://www.iros2019.org/)!
+- **Jun 2019**: I succesfully defended my MS thesis!
 
-Many of the features of dynamic content management systems (like Wordpress) can be achieved in this fashion, using a fraction of the computational resources and with far less vulnerability to hacking and DDoSing. You can also modify the theme to your heart's content without touching the content of your site. If you get to a point where you've broken something in Jekyll/HTML/CSS beyond repair, your markdown files describing your talks, publications, etc. are safe. You can rollback the changes or even delete the repository and start over -- just be sure to save the markdown files! Finally, you can also write scripts that process the structured data on the site, such as [this one](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb) that analyzes metadata in pages about talks to display [a map of every location you've given a talk](https://academicpages.github.io/talkmap.html).
-
-Getting started
+<!-- Getting started
 ======
 1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
 1. Fork [this repository](https://github.com/academicpages/academicpages.github.io) by clicking the "fork" button in the top right. 
@@ -47,4 +59,4 @@ Example: editing a markdown file for a talk
 
 For more info
 ------
-More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+More info about configuring academicpages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful. -->
