@@ -15,14 +15,14 @@ Electrical Engineering from Indian Institute of Engineering Science and Technolo
 
 News
 ======
-- **Jul 2023**: Our paper on multi-turn image retrieval is accepted at ICCV 2023!
+- **Jul 2023**: Our paper on [multi-turn image retrieval](https://openaccess.thecvf.com/content/ICCV2023/html/Pal_FashionNTM_Multi-turn_Fashion_Image_Retrieval_via_Cascaded_Memory_ICCV_2023_paper.html) is accepted at [ICCV 2023](https://iccv2023.thecvf.com/)! (acceptance rate - 26.2%)
 - **Mar 2023**: I will be returning to Amazon as an Applied Scientist Intern in Summer 2023.
 - **Jun 2022**: Our paper on [reward-shaping for object-goal navigation](https://embodied-ai.org/papers/2022/18.pdf) is accepted at 3rd [Embodied AI Workshop](https://embodied-ai.org/), CVPR 2022!
 - **Mar 2022**: I successfully passed my Thesis Proposal Exam and am now a Ph.D. candidate!
 - **Mar 2022**: I will be joining Amazon as an Applied Scientist Intern in Summer 2022.
 - **Mar 2021**: I will be joining Google as a Research Intern in Summer 2021.
-- **Oct 2020**: Our paper on [object-goal navigation](https://sites.google.com/eng.ucsd.edu/mjolnir/) is accepted at [CoRL 2020](https://sites.google.com/robot-learning.org/corl2020)! (acceptance rate - 34.02%)
-- **Feb 2020**: Our paper on [semantically-augmented gaze detection network](https://sites.google.com/eng.ucsd.edu/sage-net/) is accepted at [CVPR 2020](http://cvpr2020.thecvf.com/)! (acceptance rate - 22.08%)
+- **Oct 2020**: Our paper on [object-goal navigation](https://sites.google.com/eng.ucsd.edu/mjolnir/) is accepted at [CoRL 2020](https://sites.google.com/robot-learning.org/corl2020)! (acceptance rate - 34%)
+- **Feb 2020**: Our paper on [semantically-augmented gaze detection network](https://sites.google.com/eng.ucsd.edu/sage-net/) is accepted at [CVPR 2020](http://cvpr2020.thecvf.com/)! (acceptance rate - 22.1%)
 - **Nov 2019**: Presented paper at [IROS 2019](https://www.iros2019.org/) in Macau, China!
 - **Sep 2019**: I started my Ph.D. journey in CSE Department, UC San Diego.
 - **Jun 2019**: Our paper on [place categorization](https://sites.google.com/eng.ucsd.edu/deduce/) is accepted at [IROS 2019](https://www.iros2019.org/)!
