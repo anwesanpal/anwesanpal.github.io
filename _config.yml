@@ -82,12 +82,12 @@ analytics:
 author:
   name             : "Anwesan Pal"
   avatar           : "profile_photo.png"
-  bio              : "Ph.D. Candidate, UC San Diego"
-  location         : "San Diego, CA, USA"
+  bio              : "Applied Scientist, AWS"
+  location         : "Bellevue, WA, USA"
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=b3g7914AAAAJ&hl=en"
-  email            : "a2pal@ucsd.edu"
+  email            : "anwesanerith@googlemail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
