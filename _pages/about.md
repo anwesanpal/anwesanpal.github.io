@@ -8,13 +8,12 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a Ph.D. candidate in the Department of Computer Science and Engineering at UC San Diego. I work in the
-[Cognitive Robotics](https://www.cogrob.org/) Lab under the supervision of Prof. [Henrik I. Christensen](http://www.hichristensen.com/). Prior to this, I 
-obtained an M.S. degree in Electrical and Computer Engineering from UC San Diego, and a B.E. degree in 
-Electrical Engineering from Indian Institute of Engineering Science and Technology (IIEST) Shibpur.
+I am currently an Applied Scientist at Amazon Web Services (AWS). My research interests lie in the intersection of Machine Learning, Computer Vision, Robotics, and Natural Language Processing, with a focus towards building generative models for real-world applications. I completed my Ph.D. degree from the Department of Computer Science and Engineering at UC San Diego, where I worked with Prof. [Henrik I. Christensen](http://www.hichristensen.com/). Prior to that, I obtained an M.S. degree in Electrical and Computer Engineering from UC San Diego, and a B.E. degree in Electrical Engineering from Indian Institute of Engineering Science and Technology (IIEST) Shibpur.
 
 News
 ======
+- **Jan 2024**: I started working full-time as an Applied Scientist at AWS!
+- **Jul 2023**: Our paper about [smart home robots operating in real-world environments](https://sites.google.com/eng.ucsd.edu/home-robot) is accepted at [IRC 2023](https://ieeexplore.ieee.org/xpl/conhome/10473521/proceeding)!
 - **Jul 2023**: Our paper on [multi-turn image retrieval](https://openaccess.thecvf.com/content/ICCV2023/html/Pal_FashionNTM_Multi-turn_Fashion_Image_Retrieval_via_Cascaded_Memory_ICCV_2023_paper.html) is accepted at [ICCV 2023](https://iccv2023.thecvf.com/)! (acceptance rate - 26.2%)
 - **Mar 2023**: I will be returning to Amazon as an Applied Scientist Intern in Summer 2023.
 - **Jun 2022**: Our paper on [reward-shaping for object-goal navigation](https://embodied-ai.org/papers/2022/18.pdf) is accepted at 3rd [Embodied AI Workshop](https://embodied-ai.org/), CVPR 2022!
