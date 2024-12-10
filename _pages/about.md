@@ -12,6 +12,7 @@ I am currently an Applied Scientist at Amazon Web Services (AWS). My research in
 
 News
 ======
+- **Oct 2024**: Our paper about [data sanitization in LLMs](https://sites.google.com/view/datasan) is accepted at [Safe Generative AI Workshop](https://safegenaiworkshop.github.io/), Neurips 2024!
 - **Jan 2024**: I started working full-time as an Applied Scientist at AWS!
 - **Jul 2023**: Our paper about [smart home robots operating in real-world environments](https://sites.google.com/eng.ucsd.edu/home-robot) is accepted at [IRC 2023](https://ieeexplore.ieee.org/xpl/conhome/10473521/proceeding)!
 - **Jul 2023**: Our paper on [multi-turn image retrieval](https://openaccess.thecvf.com/content/ICCV2023/html/Pal_FashionNTM_Multi-turn_Fashion_Image_Retrieval_via_Cascaded_Memory_ICCV_2023_paper.html) is accepted at [ICCV 2023](https://iccv2023.thecvf.com/)! (acceptance rate - 26.2%)
