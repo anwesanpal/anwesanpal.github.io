@@ -8,10 +8,12 @@ redirect_from:
   - /about.html
 ---
 
-I am currently an Applied Scientist at Amazon Web Services (AWS). My research interests lie in the intersection of Machine Learning, Computer Vision, Robotics, and Natural Language Processing, with a focus towards building generative models for real-world applications. I completed my Ph.D. degree from the Department of Computer Science and Engineering at UC San Diego, where I worked with Prof. [Henrik I. Christensen](http://www.hichristensen.com/). Prior to that, I obtained an M.S. degree in Electrical and Computer Engineering from UC San Diego, and a B.E. degree in Electrical Engineering from Indian Institute of Engineering Science and Technology (IIEST) Shibpur.
+I am currently an Applied Scientist at AWS AI Labs. My research interests lie in the intersection of Machine Learning, Computer Vision, Robotics, and Natural Language Processing, with a focus towards building generative models for real-world applications. I completed my Ph.D. degree from the Department of Computer Science and Engineering at UC San Diego, where I worked with Prof. [Henrik I. Christensen](http://www.hichristensen.com/). Prior to that, I obtained an M.S. degree in Electrical and Computer Engineering from UC San Diego, and a B.E. degree in Electrical Engineering from Indian Institute of Engineering Science and Technology (IIEST) Shibpur.
 
 News
 ======
+- **Oct 2025**: Our paper about [long-context retrieval with LLMs](https://sites.google.com/view/tag-emnlp?usp=sharing) is accepted at [EMNLP 2025](https://2025.emnlp.org/)!
+- **Oct 2025**: Our paper about continual learning in LLMs is accepted at [Continual and Compatible Foundation Model Updates (CCFM) Workshop](https://sites.google.com/view/ccfm-neurips2025), Neurips 2025!
 - **Oct 2024**: Our paper about [data sanitization in LLMs](https://sites.google.com/view/datasan) is accepted at [Safe Generative AI Workshop](https://safegenaiworkshop.github.io/), Neurips 2024!
 - **Jan 2024**: I started working full-time as an Applied Scientist at AWS!
 - **Jul 2023**: Our paper about [smart home robots operating in real-world environments](https://sites.google.com/eng.ucsd.edu/home-robot) is accepted at [IRC 2023](https://ieeexplore.ieee.org/xpl/conhome/10473521/proceeding)!
@@ -24,9 +26,6 @@ News
 - **Oct 2020**: Our paper on [object-goal navigation](https://sites.google.com/eng.ucsd.edu/mjolnir/) is accepted at [CoRL 2020](https://sites.google.com/robot-learning.org/corl2020)! (acceptance rate - 34%)
 - **Feb 2020**: Our paper on [semantically-augmented gaze detection network](https://sites.google.com/eng.ucsd.edu/sage-net/) is accepted at [CVPR 2020](http://cvpr2020.thecvf.com/)! (acceptance rate - 22.1%)
 - **Nov 2019**: Presented paper at [IROS 2019](https://www.iros2019.org/) in Macau, China!
-- **Sep 2019**: I started my Ph.D. journey in CSE Department, UC San Diego.
-- **Jun 2019**: Our paper on [place categorization](https://sites.google.com/eng.ucsd.edu/deduce/) is accepted at [IROS 2019](https://www.iros2019.org/)!
-- **Jun 2019**: I succesfully defended my MS thesis!
 
 <!-- Getting started
 ======
